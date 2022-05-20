@@ -1,9 +1,113 @@
+html{
+    align-content: center;
+}
+
 h1 {
-    width: 50%;
+    width: 100%;
     margin: 0%;
     padding: 2%;
     background-color: #004175;
     Color: white;
-    border: thin solid #89DEEF;
+    border-bottom: thin solid #89DEEF;
+    font-family: "Oswald", sans-serif;
+    font-size: 40pX; 
     
+    
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40pX; 
+}
+main {
+    align-items: flex-end; 
+}
+
+.intro {
+    font-family: "Oswald", sans-serif;
+    font-size: 20PX; 
+}
+
+    .row {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 5px;
+    }
+    .box {
+        border: 1px ;
+        display: inline;
+        flex: 6;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-template-columns:auto;
+        font size: 100px ;
+        padding: 10px ;
+    }
+    .disc {
+        border: 1px ;
+        display: inline;
+        box-sizing: border-box;
+        flex: 0 1 auto;
+        flex-direction: ;
+        flex wrap: wrap;
+        grid-template-columns:;
+        gap: 20px;
+        font size: small;
+        padding: 1%;
+        margin: auto;
+        text-align: center;
+        background-color: #89DEEF;
+        border-radius: 30% ;
+    }
+
+
+
+  img {
+   max-width: 400px;
+    padding-bottom: 0px ;
+  }
+footer {
+    color: WHITE;
+    font-family: "Oswald", sans-serif;
+    font-size: 70PX;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    font size: 30px;
+    
+}
+
+.donate {
+    display: ;
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 350px;
+    line-height: 340px;
+    background: url("starter_files/images/donate.jpg"), #A6A9F0; 
+    background-blend-mode: multiply;
+}
+.volunteer {
+    display: inline;
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+    width: max-content;
+    height: 350px;
+    line-height: 340px;
+    background: url("starter_files/images/volunteer.jpg"), #A6A9F0; 
+    background-blend-mode: multiply;
+}
+.location {
+    display: inline;
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 350px;
+    line-height: 340px;
+    background: url("starter_files/images/location.png"), #A6A9F0; 
+    background-blend-mode: multiply;
 }
