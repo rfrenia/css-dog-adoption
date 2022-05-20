@@ -1,22 +1,26 @@
 html{
     align-content: center;
+    
 }
-
+body {
+    text-indent: 20px;
+}
 h1 {
     width: 100%;
     margin: 0%;
     padding: 2%;
     background-color: #004175;
     Color: white;
-    border-bottom: thin solid #89DEEF;
+    border-bottom: 3px solid #89DEEF;
     font-family: "Oswald", sans-serif;
-    font-size: 40pX; 
-    
+    font-size: 45px; 
+    text-indent: 0px;
     
 }
 h2 {
     font-family: "Oswald", sans-serif;
-    font-size: 40pX; 
+    font-size: 35pX; 
+    margin: 10px;
 }
 main {
     align-items: flex-end; 
@@ -25,88 +29,97 @@ main {
 .intro {
     font-family: "Oswald", sans-serif;
     font-size: 20PX; 
+    font-style: normal;
 }
-
+h3 {
+    margin: 1px
+}
     .row {
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        border: 5px;
+        border: 1px;
+        font-family: "Oswald", sans-serif;
+        
     }
     .box {
-        border: 1px ;
+        border: 1px solid;
         display: inline;
         flex: 6;
         flex-direction: row;
         flex-wrap: wrap;
         grid-template-columns:auto;
-        font size: 100px ;
-        padding: 10px ;
+        padding-bottom: 50px ;
+        margin: 0px;
+        
+        
     }
     .disc {
         border: 1px ;
-        display: inline;
+        display: inline-block;
         box-sizing: border-box;
         flex: 0 1 auto;
-        flex-direction: ;
-        flex wrap: wrap;
-        grid-template-columns:;
-        gap: 20px;
-        font size: small;
         padding: 1%;
-        margin: auto;
+        margin: 2px;
         text-align: center;
         background-color: #89DEEF;
-        border-radius: 30% ;
+        border-radius: 50px ;
+        text-indent: 0%;
+        
+        
     }
 
 
 
   img {
    max-width: 400px;
-    padding-bottom: 0px ;
+
   }
 footer {
     color: WHITE;
     font-family: "Oswald", sans-serif;
-    font-size: 70PX;
+    font-size: 50PX;
     text-align: center;
     flex-direction: row;
     display: flex;
+    border:1px;
     font size: 30px;
+    grid-template-columns: auto;
+    flex: 1 1 auto;
+    
     
 }
 
 .donate {
-    display: ;
     flex: 1 1 auto;
-    justify-content: center;
-    text-align: center;
-    width: auto;
-    height: 350px;
+    justify-content: Center;
+    width: 100%;
+    height: auto;
     line-height: 340px;
     background: url("starter_files/images/donate.jpg"), #A6A9F0; 
     background-blend-mode: multiply;
+    display: flex;
+    
 }
 .volunteer {
-    display: inline;
+    display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    text-align: center;
-    width: max-content;
-    height: 350px;
+    width: 100%;
+    height: auto;
     line-height: 340px;
     background: url("starter_files/images/volunteer.jpg"), #A6A9F0; 
     background-blend-mode: multiply;
+    border: solid;
+    border-color: black;
 }
 .location {
-    display: inline;
+    display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    text-align: center;
-    width: auto;
-    height: 350px;
+    width: 100%;
+    height: auto;
     line-height: 340px;
     background: url("starter_files/images/location.png"), #A6A9F0; 
     background-blend-mode: multiply;
